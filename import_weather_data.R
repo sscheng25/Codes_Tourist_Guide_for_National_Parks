@@ -119,7 +119,7 @@ weather_2016 <-
 
 weather <-
   rbind(weather_2020, weather_2019, weather_2018, weather_2017, weather_2016)
-write.csv(weather,"C:/Users/CSS/Desktop/550-final/weather_data_2016_2020.csv", row.names = TRUE)
+write.csv(weather,"./data/weather_data_2016_2020.csv", row.names = TRUE)
 
 
 
